@@ -1,0 +1,60 @@
+.retailer-container {
+  background-color: #1d1d2b;
+}
+
+.retailer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.retailer-text span,
+.retailer-text strong {
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+}
+
+.retailer-text strong {
+  margin-left: 5px;
+}
+
+.retailer-text p {
+  max-width: 350px;
+  font-size: 1.2rem;
+  color: #afafb3;
+  margin-bottom: 20px;
+}
+
+.retailer-text h3 {
+  font-size: 2.1rem;
+  max-width: 250px;
+}
+
+.retailer-support img {
+  width: 100%;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 600px) {
+  .retailer-info {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .retailer-text span,
+  .retailer-text strong {
+    font-size: 2.8rem;
+  }
+
+  .retailer-text p {
+    margin-top: 20px;
+    max-width: 500px;
+  }
+  .retailer-text h3 {
+    font-size: 1.6rem;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}
