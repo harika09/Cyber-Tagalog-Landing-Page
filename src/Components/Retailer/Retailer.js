@@ -10,7 +10,7 @@ function Retailer() {
   }, []);
 
   return (
-    <div className="retailer-container">
+    <div className="retailer-container" id="retailer">
       <div className="retailer-content">
         <div className="retailer-info" data-aos="fade-up">
           <div className="retailer-support">

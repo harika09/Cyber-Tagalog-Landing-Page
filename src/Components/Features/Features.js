@@ -9,7 +9,7 @@ function Features() {
   }, []);
 
   return (
-    <div className="feature-container">
+    <div className="feature-container" id="feature">
       <div className="feature-content bd-container">
         <span className="white-line"></span>
         <h1> Built with Powerful Features</h1>

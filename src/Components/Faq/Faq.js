@@ -9,7 +9,7 @@ function Faq() {
   }, []);
 
   return (
-    <div className="faq-container">
+    <div className="faq-container" id="faq">
       <div className="faq-content bd-container">
         <h2>Frequently Asked Questions</h2>
 

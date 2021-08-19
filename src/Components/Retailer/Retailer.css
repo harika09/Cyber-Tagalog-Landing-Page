@@ -11,7 +11,7 @@
 
 .retailer-text span,
 .retailer-text strong {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .retailer-text h3 {
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   max-width: 250px;
 }
 
@@ -36,7 +36,7 @@
   max-width: 450px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .retailer-info {
     display: flex;
     flex-direction: column-reverse;

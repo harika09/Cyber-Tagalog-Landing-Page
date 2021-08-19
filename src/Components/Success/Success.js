@@ -10,7 +10,7 @@ function Success() {
   }, []);
 
   return (
-    <div className="success-container">
+    <div className="success-container" id="success">
       <div className="success-content bd-container">
         <div className="success-wrapper">
           <div className="success-text">
@@ -24,7 +24,7 @@ function Success() {
             </p>
           </div>
 
-          <div className="success-image" data-aos="fade-left">
+          <div className="success-image" data-aos="fade-up">
             <img className="bot-success" src={successIMG} alt="Success" />
           </div>
         </div>
