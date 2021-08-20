@@ -82,6 +82,10 @@
     font-size: 1rem;
   }
 
+  .card-feature .card-logo i {
+    font-size: 2rem;
+  }
+
   .white-line {
     width: 30%;
   }

@@ -6,6 +6,8 @@ import Features from "./Components/Features/Features";
 import Retailer from "./Components/Retailer/Retailer";
 import Success from "./Components/Success/Success";
 import Faq from "./Components/Faq/Faq";
+import OtherInfo from "./Components/otherInfo/OtherInfo";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Retailer />
       <Success />
       <Faq />
+      <OtherInfo />
+      <Footer />
     </div>
   );
 }
